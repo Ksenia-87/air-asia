@@ -9,8 +9,7 @@
 
 <body>
   <div class="wrapper">
-    <div class="wrapper__content">
-<!--Шапка сайта-->      
+    <div class="wrapper__content">    
       <header class="header">
         <div class="container header__container">
           <a href="#" class="logo">
@@ -36,8 +35,7 @@
         </div>
       </header>
 
-      <main class="maincontent">
-<!--Секция приветствия-->    
+      <main class="maincontent"> 
         <section class="hello">
           <div class="container hello__container">
             <h1 class="hello__title">Авторские туры по Азии</h1>
@@ -45,8 +43,6 @@
             <a href="#" class="button">Подробнее</a>
           </div>        
         </section>
-
-<!--Секция предложений-->
 
         <section class="offers">
           <div class="container">
@@ -108,25 +104,27 @@
               </li>
             </div>
           </div>
-        </section>
-
-<!--Секция новостей-->        
+        </section>     
         
         <section class="news">
           <div class="container">
             <h2 class="title">Новости и акции</h2>
-            <div class="stock__list">
-              <li class="stock__item">
-                <img src="" alt="" class="stock__img">
-                <date class="news__date">Декабрь 2019</date>
-                <h4 class="news__title">Дешевые путевки на Новый Год!</h4>
-                <p class="news__text">Проведи новый год в Тайланде</p>
+            <div class="news__stock">
+              <li class="news__item">
+                <img src="" alt="" class="news__item-icon">
+                <div class="news__item-offer">
+                  <date class="news__date">Декабрь 2019</date>
+                  <h4 class="news__title">Дешевые путевки на Новый Год!</h4>
+                  <p class="news__text">Проведи новый год в Тайланде</p>
+                </div>             
               </li>
-              <li class="stock__item">
-                <img src="" alt="" class="stock__img">
-                <date class="news__date">Декабрь 2019</date>
-                <h4 class="news__title">Акция для серфенгистов!</h4>
-                <p class="news__text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
+              <li class="news__item">
+                <img src="" alt="" class="news__item-icon">
+                <div class="news__item-offer">
+                  <date class="news__date">Декабрь 2019</date>
+                  <h4 class="news__title">Акция для серфенгистов!</h4>
+                  <p class="news__text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
+                </div>        
               </li>
             </div>
             <div class="paginator">
@@ -142,25 +140,23 @@
               </ul>
             </div>
           </div>
-        </section>
-
- <!--Секция О нас-->       
+        </section>   
 
         <section class="about">
           <div class="container">
-            <img src="" alt="" class="about__1">
+            <img src="" alt="" class="about__background">
             <div class="about__content">
-              <img src="" alt="" class="about__2">
-              <h2 class="title title-dark">О нас</h2>
-              <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
-              <a href="#" class="button">Подробнее</a>
+              <img src="" alt="" class="about__foreground">
+              <div class="about__info">
+                <h2 class="title title--dark">О нас</h2>
+                <p class="about__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях.</p>
+                <a href="#" class="button">Подробнее</a>
+              </div>           
             </div>
           </div>       
         </section>
       </main>
     </div>
-
-<!--Подвал-->
 
     <footer class="footer">
       <div class="container footer__container">
@@ -183,27 +179,27 @@
         <ul class="social">
           <li class="social__item">
             <a href="#" class="social__link">
-              <img src="" alt="" class="social__link-tg">
+              <img src="" alt="" class="social__img">
             </a>
           </li>
           <li class="social__item">
             <a href="#" class="social__link">
-              <img src="" alt="" class="social__link-vk">
+              <img src="" alt="" class="social__img">
             </a>
           </li>
           <li class="social__item">
             <a href="#" class="social__link">
-              <img src="" alt="" class="social__link-fb">
+              <img src="" alt="" class="social__img">
             </a>
           </li>
           <li class="social__item">
             <a href="#" class="social__link">
-              <img src="" alt="" class="social__link-ig">
+              <img src="" alt="" class="social__img">
             </a>
           </li>
         </ul>
         <address class="contacts">
-          <div class="contacts__info">Бесплатный звонок по России</div>
+          <div class="contacts__data">Бесплатный звонок по России</div>
           <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
         </address>
       </div>
